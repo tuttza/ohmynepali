@@ -174,6 +174,22 @@
     return _color.englishColors[row];
 }
 
+// Change Font for each pickerView row label
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view {
+    
+    UILabel* pickerRowText = (UILabel*)view;
+    if (!pickerRowText) {
+        pickerRowText = [[UILabel alloc] init];
+        [pickerRowText setFont:[UIFont fontWithName:@"Raleway-Thin" size:28]];
+        [pickerRowText setTextAlignment:NSTextAlignmentCenter];
+        pickerRowText.numberOfLines = 0;
+    }
+    
+    pickerRowText.text = [_color.englishColors objectAtIndex:row];
+    
+    return pickerRowText;
+}
+
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     // This method is triggered whenever the user makes a change to the picker selection.
     // The parameter named row and component represents what was selected.
