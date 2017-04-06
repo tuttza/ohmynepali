@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B6DDDB1DB5D13200CF058B /* OMNFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B6DDDA1DB5D13200CF058B /* OMNFood.m */; };
+		92C3C9FC1D952C0400858AFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3C9FB1D952C0400858AFC /* main.m */; };
+		92C3C9FF1D952C0400858AFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3C9FE1D952C0400858AFC /* AppDelegate.m */; };
+		92C3CA021D952C0400858AFC /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3CA011D952C0400858AFC /* ColorViewController.m */; };
+		92C3CA051D952C0400858AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C3CA031D952C0400858AFC /* Main.storyboard */; };
+		92C3CA071D952C0400858AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C3CA061D952C0400858AFC /* Assets.xcassets */; };
+		92C3CA0A1D952C0400858AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C3CA081D952C0400858AFC /* LaunchScreen.storyboard */; };
+		92C3CA151D952C0400858AFC /* oh_my_nepaliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3CA141D952C0400858AFC /* oh_my_nepaliTests.m */; };
+		92C3CA201D952C0400858AFC /* oh_my_nepaliUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3CA1F1D952C0400858AFC /* oh_my_nepaliUITests.m */; };
+		92C3CA2E1D952CFB00858AFC /* colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92C3CA2D1D952CFA00858AFC /* colors.plist */; };
+		92C3CA331D952DCA00858AFC /* OMNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C3CA321D952DCA00858AFC /* OMNColor.m */; };
+		92D7F7D21D97AF4B0007AAD0 /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7CC1D97AF4B0007AAD0 /* Rajdhani-Bold.ttf */; };
+		92D7F7D71D97BB660007AAD0 /* Rajdhani-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7CD1D97AF4B0007AAD0 /* Rajdhani-Light.ttf */; };
+		92D7F7D91D97BB720007AAD0 /* Rajdhani-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7CE1D97AF4B0007AAD0 /* Rajdhani-Medium.ttf */; };
+		92D7F7DA1D97BB760007AAD0 /* Rajdhani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7CF1D97AF4B0007AAD0 /* Rajdhani-Regular.ttf */; };
+		92D7F7DB1D97BB7A0007AAD0 /* Rajdhani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7D01D97AF4B0007AAD0 /* Rajdhani-SemiBold.ttf */; };
+		92D7F7DE1D9CAF7D0007AAD0 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F7DD1D9CAF7D0007AAD0 /* FoodViewController.m */; };
+		92D7F7E21D9E8ADA0007AAD0 /* NumbersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */; };
+		92D7F7E41D9E98330007AAD0 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7E31D9E98330007AAD0 /* foods.plist */; };
+		ACBFAF591E95F19B00CA717C /* Black.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF4E1E95F19B00CA717C /* Black.m4a */; };
+		ACBFAF5A1E95F19B00CA717C /* Blue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF4F1E95F19B00CA717C /* Blue.m4a */; };
+		ACBFAF5B1E95F19B00CA717C /* Brown.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF501E95F19B00CA717C /* Brown.m4a */; };
+		ACBFAF5C1E95F19B00CA717C /* Crimson.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF511E95F19B00CA717C /* Crimson.m4a */; };
+		ACBFAF5D1E95F19B00CA717C /* Green.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF521E95F19B00CA717C /* Green.m4a */; };
+		ACBFAF5E1E95F19B00CA717C /* Grey.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF531E95F19B00CA717C /* Grey.m4a */; };
+		ACBFAF5F1E95F19B00CA717C /* Orange.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF541E95F19B00CA717C /* Orange.m4a */; };
+		ACBFAF601E95F19B00CA717C /* Purple.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF551E95F19B00CA717C /* Purple.m4a */; };
+		ACBFAF611E95F19B00CA717C /* Red.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF561E95F19B00CA717C /* Red.m4a */; };
+		ACBFAF621E95F19B00CA717C /* White.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF571E95F19B00CA717C /* White.m4a */; };
+		ACBFAF631E95F19B00CA717C /* Yellow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF581E95F19B00CA717C /* Yellow.m4a */; };
+		ACBFAF651E967BA500CA717C /* Pink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF641E967BA500CA717C /* Pink.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92C3CA111D952C0400858AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C3C9EF1D952C0200858AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C3C9F61D952C0200858AFC;
+			remoteInfo = "oh my nepali";
+		};
+		92C3CA1C1D952C0400858AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C3C9EF1D952C0200858AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C3C9F61D952C0200858AFC;
+			remoteInfo = "oh my nepali";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92B6DDD91DB5D13200CF058B /* OMNFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMNFood.h; path = "oh my nepali/OMNFood.h"; sourceTree = SOURCE_ROOT; };
+		92B6DDDA1DB5D13200CF058B /* OMNFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMNFood.m; path = "oh my nepali/OMNFood.m"; sourceTree = SOURCE_ROOT; };
+		92C3C9F71D952C0400858AFC /* oh my nepali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oh my nepali.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3C9FB1D952C0400858AFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C3C9FD1D952C0400858AFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92C3C9FE1D952C0400858AFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92C3CA001D952C0400858AFC /* ColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		92C3CA011D952C0400858AFC /* ColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		92C3CA041D952C0400858AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92C3CA061D952C0400858AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C3CA091D952C0400858AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C3CA0B1D952C0400858AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C3CA101D952C0400858AFC /* oh my nepaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oh my nepaliTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3CA141D952C0400858AFC /* oh_my_nepaliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oh_my_nepaliTests.m; sourceTree = "<group>"; };
+		92C3CA161D952C0400858AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C3CA1B1D952C0400858AFC /* oh my nepaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oh my nepaliUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C3CA1F1D952C0400858AFC /* oh_my_nepaliUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oh_my_nepaliUITests.m; sourceTree = "<group>"; };
+		92C3CA211D952C0400858AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C3CA2D1D952CFA00858AFC /* colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors.plist; sourceTree = "<group>"; };
+		92C3CA311D952DCA00858AFC /* OMNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMNColor.h; path = "oh my nepali/OMNColor.h"; sourceTree = SOURCE_ROOT; };
+		92C3CA321D952DCA00858AFC /* OMNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMNColor.m; sourceTree = "<group>"; };
+		92D7F7CC1D97AF4B0007AAD0 /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rajdhani-Bold.ttf"; path = "../../../Downloads/Rajdhani/Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
+		92D7F7CD1D97AF4B0007AAD0 /* Rajdhani-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rajdhani-Light.ttf"; path = "../../../Downloads/Rajdhani/Rajdhani-Light.ttf"; sourceTree = "<group>"; };
+		92D7F7CE1D97AF4B0007AAD0 /* Rajdhani-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rajdhani-Medium.ttf"; path = "../../../Downloads/Rajdhani/Rajdhani-Medium.ttf"; sourceTree = "<group>"; };
+		92D7F7CF1D97AF4B0007AAD0 /* Rajdhani-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rajdhani-Regular.ttf"; path = "../../../Downloads/Rajdhani/Rajdhani-Regular.ttf"; sourceTree = "<group>"; };
+		92D7F7D01D97AF4B0007AAD0 /* Rajdhani-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rajdhani-SemiBold.ttf"; path = "../../../Downloads/Rajdhani/Rajdhani-SemiBold.ttf"; sourceTree = "<group>"; };
+		92D7F7DC1D9CAF7D0007AAD0 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		92D7F7DD1D9CAF7D0007AAD0 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		92D7F7E01D9E8ADA0007AAD0 /* NumbersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersViewController.h; sourceTree = "<group>"; };
+		92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersViewController.m; sourceTree = "<group>"; };
+		92D7F7E31D9E98330007AAD0 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
+		ACBFAF4E1E95F19B00CA717C /* Black.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Black.m4a; path = ../../../Downloads/ohmynepali_audio/Black.m4a; sourceTree = "<group>"; };
+		ACBFAF4F1E95F19B00CA717C /* Blue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Blue.m4a; path = ../../../Downloads/ohmynepali_audio/Blue.m4a; sourceTree = "<group>"; };
+		ACBFAF501E95F19B00CA717C /* Brown.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Brown.m4a; path = ../../../Downloads/ohmynepali_audio/Brown.m4a; sourceTree = "<group>"; };
+		ACBFAF511E95F19B00CA717C /* Crimson.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Crimson.m4a; path = ../../../Downloads/ohmynepali_audio/Crimson.m4a; sourceTree = "<group>"; };
+		ACBFAF521E95F19B00CA717C /* Green.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Green.m4a; path = ../../../Downloads/ohmynepali_audio/Green.m4a; sourceTree = "<group>"; };
+		ACBFAF531E95F19B00CA717C /* Grey.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Grey.m4a; path = ../../../Downloads/ohmynepali_audio/Grey.m4a; sourceTree = "<group>"; };
+		ACBFAF541E95F19B00CA717C /* Orange.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Orange.m4a; path = ../../../Downloads/ohmynepali_audio/Orange.m4a; sourceTree = "<group>"; };
+		ACBFAF551E95F19B00CA717C /* Purple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Purple.m4a; path = ../../../Downloads/ohmynepali_audio/Purple.m4a; sourceTree = "<group>"; };
+		ACBFAF561E95F19B00CA717C /* Red.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Red.m4a; path = ../../../Downloads/ohmynepali_audio/Red.m4a; sourceTree = "<group>"; };
+		ACBFAF571E95F19B00CA717C /* White.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = White.m4a; path = ../../../Downloads/ohmynepali_audio/White.m4a; sourceTree = "<group>"; };
+		ACBFAF581E95F19B00CA717C /* Yellow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Yellow.m4a; path = ../../../Downloads/ohmynepali_audio/Yellow.m4a; sourceTree = "<group>"; };
+		ACBFAF641E967BA500CA717C /* Pink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pink.m4a; path = ../../../Downloads/Pink.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C3C9F41D952C0200858AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3CA0D1D952C0400858AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3CA181D952C0400858AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C3C9EE1D952C0200858AFC = {
+			isa = PBXGroup;
+			children = (
+				92C3C9F91D952C0400858AFC /* oh my nepali */,
+				92C3CA131D952C0400858AFC /* oh my nepaliTests */,
+				92C3CA1E1D952C0400858AFC /* oh my nepaliUITests */,
+				92C3C9F81D952C0400858AFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C3C9F81D952C0400858AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C3C9F71D952C0400858AFC /* oh my nepali.app */,
+				92C3CA101D952C0400858AFC /* oh my nepaliTests.xctest */,
+				92C3CA1B1D952C0400858AFC /* oh my nepaliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C3C9F91D952C0400858AFC /* oh my nepali */ = {
+			isa = PBXGroup;
+			children = (
+				92D7F7DF1D9CAF870007AAD0 /* Data */,
+				92D7F7CA1D97AF2F0007AAD0 /* Resources */,
+				92C3C9FD1D952C0400858AFC /* AppDelegate.h */,
+				92C3C9FE1D952C0400858AFC /* AppDelegate.m */,
+				92C3CA001D952C0400858AFC /* ColorViewController.h */,
+				92C3CA011D952C0400858AFC /* ColorViewController.m */,
+				92D7F7DC1D9CAF7D0007AAD0 /* FoodViewController.h */,
+				92D7F7DD1D9CAF7D0007AAD0 /* FoodViewController.m */,
+				92D7F7E01D9E8ADA0007AAD0 /* NumbersViewController.h */,
+				92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */,
+				92C3CA311D952DCA00858AFC /* OMNColor.h */,
+				92C3CA321D952DCA00858AFC /* OMNColor.m */,
+				92B6DDD91DB5D13200CF058B /* OMNFood.h */,
+				92B6DDDA1DB5D13200CF058B /* OMNFood.m */,
+				92C3CA031D952C0400858AFC /* Main.storyboard */,
+				92C3CA061D952C0400858AFC /* Assets.xcassets */,
+				92C3CA081D952C0400858AFC /* LaunchScreen.storyboard */,
+				92C3CA0B1D952C0400858AFC /* Info.plist */,
+				92C3C9FA1D952C0400858AFC /* Supporting Files */,
+			);
+			path = "oh my nepali";
+			sourceTree = "<group>";
+		};
+		92C3C9FA1D952C0400858AFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C3C9FB1D952C0400858AFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C3CA131D952C0400858AFC /* oh my nepaliTests */ = {
+			isa = PBXGroup;
+			children = (
+				92C3CA141D952C0400858AFC /* oh_my_nepaliTests.m */,
+				92C3CA161D952C0400858AFC /* Info.plist */,
+			);
+			path = "oh my nepaliTests";
+			sourceTree = "<group>";
+		};
+		92C3CA1E1D952C0400858AFC /* oh my nepaliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92C3CA1F1D952C0400858AFC /* oh_my_nepaliUITests.m */,
+				92C3CA211D952C0400858AFC /* Info.plist */,
+			);
+			path = "oh my nepaliUITests";
+			sourceTree = "<group>";
+		};
+		92D7F7CA1D97AF2F0007AAD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACBFAF4D1E95EFD400CA717C /* audio */,
+				92D7F7CC1D97AF4B0007AAD0 /* Rajdhani-Bold.ttf */,
+				92D7F7CD1D97AF4B0007AAD0 /* Rajdhani-Light.ttf */,
+				92D7F7CE1D97AF4B0007AAD0 /* Rajdhani-Medium.ttf */,
+				92D7F7CF1D97AF4B0007AAD0 /* Rajdhani-Regular.ttf */,
+				92D7F7D01D97AF4B0007AAD0 /* Rajdhani-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		92D7F7DF1D9CAF870007AAD0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				92C3CA2D1D952CFA00858AFC /* colors.plist */,
+				92D7F7E31D9E98330007AAD0 /* foods.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		ACBFAF4D1E95EFD400CA717C /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				ACBFAF641E967BA500CA717C /* Pink.m4a */,
+				ACBFAF4E1E95F19B00CA717C /* Black.m4a */,
+				ACBFAF4F1E95F19B00CA717C /* Blue.m4a */,
+				ACBFAF501E95F19B00CA717C /* Brown.m4a */,
+				ACBFAF511E95F19B00CA717C /* Crimson.m4a */,
+				ACBFAF521E95F19B00CA717C /* Green.m4a */,
+				ACBFAF531E95F19B00CA717C /* Grey.m4a */,
+				ACBFAF541E95F19B00CA717C /* Orange.m4a */,
+				ACBFAF551E95F19B00CA717C /* Purple.m4a */,
+				ACBFAF561E95F19B00CA717C /* Red.m4a */,
+				ACBFAF571E95F19B00CA717C /* White.m4a */,
+				ACBFAF581E95F19B00CA717C /* Yellow.m4a */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C3C9F61D952C0200858AFC /* oh my nepali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C3CA241D952C0400858AFC /* Build configuration list for PBXNativeTarget "oh my nepali" */;
+			buildPhases = (
+				92C3C9F31D952C0200858AFC /* Sources */,
+				92C3C9F41D952C0200858AFC /* Frameworks */,
+				92C3C9F51D952C0200858AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oh my nepali";
+			productName = "oh my nepali";
+			productReference = 92C3C9F71D952C0400858AFC /* oh my nepali.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C3CA0F1D952C0400858AFC /* oh my nepaliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C3CA271D952C0400858AFC /* Build configuration list for PBXNativeTarget "oh my nepaliTests" */;
+			buildPhases = (
+				92C3CA0C1D952C0400858AFC /* Sources */,
+				92C3CA0D1D952C0400858AFC /* Frameworks */,
+				92C3CA0E1D952C0400858AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C3CA121D952C0400858AFC /* PBXTargetDependency */,
+			);
+			name = "oh my nepaliTests";
+			productName = "oh my nepaliTests";
+			productReference = 92C3CA101D952C0400858AFC /* oh my nepaliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92C3CA1A1D952C0400858AFC /* oh my nepaliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C3CA2A1D952C0400858AFC /* Build configuration list for PBXNativeTarget "oh my nepaliUITests" */;
+			buildPhases = (
+				92C3CA171D952C0400858AFC /* Sources */,
+				92C3CA181D952C0400858AFC /* Frameworks */,
+				92C3CA191D952C0400858AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C3CA1D1D952C0400858AFC /* PBXTargetDependency */,
+			);
+			name = "oh my nepaliUITests";
+			productName = "oh my nepaliUITests";
+			productReference = 92C3CA1B1D952C0400858AFC /* oh my nepaliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C3C9EF1D952C0200858AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zach;
+				TargetAttributes = {
+					92C3C9F61D952C0200858AFC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PF65AM855N;
+						ProvisioningStyle = Automatic;
+					};
+					92C3CA0F1D952C0400858AFC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92C3C9F61D952C0200858AFC;
+					};
+					92C3CA1A1D952C0400858AFC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92C3C9F61D952C0200858AFC;
+					};
+				};
+			};
+			buildConfigurationList = 92C3C9F21D952C0200858AFC /* Build configuration list for PBXProject "oh my nepali" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C3C9EE1D952C0200858AFC;
+			productRefGroup = 92C3C9F81D952C0400858AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C3C9F61D952C0200858AFC /* oh my nepali */,
+				92C3CA0F1D952C0400858AFC /* oh my nepaliTests */,
+				92C3CA1A1D952C0400858AFC /* oh my nepaliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C3C9F51D952C0200858AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBFAF5C1E95F19B00CA717C /* Crimson.m4a in Resources */,
+				92D7F7E41D9E98330007AAD0 /* foods.plist in Resources */,
+				92D7F7DB1D97BB7A0007AAD0 /* Rajdhani-SemiBold.ttf in Resources */,
+				ACBFAF611E95F19B00CA717C /* Red.m4a in Resources */,
+				92D7F7D21D97AF4B0007AAD0 /* Rajdhani-Bold.ttf in Resources */,
+				92C3CA2E1D952CFB00858AFC /* colors.plist in Resources */,
+				92C3CA0A1D952C0400858AFC /* LaunchScreen.storyboard in Resources */,
+				ACBFAF5B1E95F19B00CA717C /* Brown.m4a in Resources */,
+				ACBFAF5D1E95F19B00CA717C /* Green.m4a in Resources */,
+				92C3CA071D952C0400858AFC /* Assets.xcassets in Resources */,
+				ACBFAF631E95F19B00CA717C /* Yellow.m4a in Resources */,
+				ACBFAF621E95F19B00CA717C /* White.m4a in Resources */,
+				92D7F7D71D97BB660007AAD0 /* Rajdhani-Light.ttf in Resources */,
+				92C3CA051D952C0400858AFC /* Main.storyboard in Resources */,
+				ACBFAF5A1E95F19B00CA717C /* Blue.m4a in Resources */,
+				ACBFAF5F1E95F19B00CA717C /* Orange.m4a in Resources */,
+				ACBFAF651E967BA500CA717C /* Pink.m4a in Resources */,
+				92D7F7D91D97BB720007AAD0 /* Rajdhani-Medium.ttf in Resources */,
+				ACBFAF601E95F19B00CA717C /* Purple.m4a in Resources */,
+				92D7F7DA1D97BB760007AAD0 /* Rajdhani-Regular.ttf in Resources */,
+				ACBFAF591E95F19B00CA717C /* Black.m4a in Resources */,
+				ACBFAF5E1E95F19B00CA717C /* Grey.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3CA0E1D952C0400858AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3CA191D952C0400858AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C3C9F31D952C0200858AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C3CA021D952C0400858AFC /* ColorViewController.m in Sources */,
+				92D7F7DE1D9CAF7D0007AAD0 /* FoodViewController.m in Sources */,
+				92C3CA331D952DCA00858AFC /* OMNColor.m in Sources */,
+				92C3C9FF1D952C0400858AFC /* AppDelegate.m in Sources */,
+				92B6DDDB1DB5D13200CF058B /* OMNFood.m in Sources */,
+				92C3C9FC1D952C0400858AFC /* main.m in Sources */,
+				92D7F7E21D9E8ADA0007AAD0 /* NumbersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3CA0C1D952C0400858AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C3CA151D952C0400858AFC /* oh_my_nepaliTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3CA171D952C0400858AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C3CA201D952C0400858AFC /* oh_my_nepaliUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C3CA121D952C0400858AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C3C9F61D952C0200858AFC /* oh my nepali */;
+			targetProxy = 92C3CA111D952C0400858AFC /* PBXContainerItemProxy */;
+		};
+		92C3CA1D1D952C0400858AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C3C9F61D952C0200858AFC /* oh my nepali */;
+			targetProxy = 92C3CA1C1D952C0400858AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92C3CA031D952C0400858AFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C3CA041D952C0400858AFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92C3CA081D952C0400858AFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C3CA091D952C0400858AFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C3CA221D952C0400858AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92C3CA231D952C0400858AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C3CA251D952C0400858AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF65AM855N;
+				INFOPLIST_FILE = "oh my nepali/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zach-tuttle.oh-my-nepali";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92C3CA261D952C0400858AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF65AM855N;
+				INFOPLIST_FILE = "oh my nepali/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zach-tuttle.oh-my-nepali";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92C3CA281D952C0400858AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "oh my nepaliTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zach-tuttle.oh-my-nepaliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oh my nepali.app/oh my nepali";
+			};
+			name = Debug;
+		};
+		92C3CA291D952C0400858AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "oh my nepaliTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zach-tuttle.oh-my-nepaliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oh my nepali.app/oh my nepali";
+			};
+			name = Release;
+		};
+		92C3CA2B1D952C0400858AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "oh my nepaliUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zach-tuttle.oh-my-nepaliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "oh my nepali";
+			};
+			name = Debug;
+		};
+		92C3CA2C1D952C0400858AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "oh my nepaliUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zach-tuttle.oh-my-nepaliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "oh my nepali";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C3C9F21D952C0200858AFC /* Build configuration list for PBXProject "oh my nepali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C3CA221D952C0400858AFC /* Debug */,
+				92C3CA231D952C0400858AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C3CA241D952C0400858AFC /* Build configuration list for PBXNativeTarget "oh my nepali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C3CA251D952C0400858AFC /* Debug */,
+				92C3CA261D952C0400858AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C3CA271D952C0400858AFC /* Build configuration list for PBXNativeTarget "oh my nepaliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C3CA281D952C0400858AFC /* Debug */,
+				92C3CA291D952C0400858AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C3CA2A1D952C0400858AFC /* Build configuration list for PBXNativeTarget "oh my nepaliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C3CA2B1D952C0400858AFC /* Debug */,
+				92C3CA2C1D952C0400858AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C3C9EF1D952C0200858AFC /* Project object */;
+}

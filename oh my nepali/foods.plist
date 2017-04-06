@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nepaliFoods</key>
+	<dict>
+		<key>food-1</key>
+		<string>shyau</string>
+		<key>food-2</key>
+		<string>mousam</string>
+		<key>food-3</key>
+		<string>kera</string>
+		<key>food-4</key>
+		<string>bhat</string>
+		<key>food-5</key>
+		<string>naspati</string>
+	</dict>
+	<key>englishFoods</key>
+	<dict>
+		<key>food-1</key>
+		<string>orange</string>
+		<key>food-2</key>
+		<string>banana</string>
+		<key>food-3</key>
+		<string>rice</string>
+		<key>food-4</key>
+		<string>pear</string>
+		<key>food-5</key>
+		<string>mango</string>
+	</dict>
+</dict>
+</plist>

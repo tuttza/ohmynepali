@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>devanagariColors</key>
+	<array>
+		<string>हरियो</string>
+		<string>रातो</string>
+		<string>नीलो</string>
+		<string>खैरो</string>
+		<string>पहेलो</string>
+		<string>प्याजी</string>
+		<string>कालो</string>
+		<string>सेतो</string>
+		<string>सुन्तले</string>
+		<string>गुलाबी</string>
+		<string>खरानी</string>
+		<string>सिम्रिक</string>
+	</array>
+	<key>nepaliColors</key>
+	<array>
+		<string>hariyo</string>
+		<string>rato</string>
+		<string>nilo</string>
+		<string>khairo</string>
+		<string>pahelo</string>
+		<string>pyaaji</string>
+		<string>kalo</string>
+		<string>seto</string>
+		<string>suntala</string>
+		<string>gulabi</string>
+		<string>kharani</string>
+		<string>simrik</string>
+	</array>
+	<key>englishColors</key>
+	<array>
+		<string>green</string>
+		<string>red</string>
+		<string>blue</string>
+		<string>brown</string>
+		<string>yellow</string>
+		<string>purple</string>
+		<string>black</string>
+		<string>white</string>
+		<string>orange</string>
+		<string>pink</string>
+		<string>grey</string>
+		<string>crimson</string>
+	</array>
+</dict>
+</plist>
