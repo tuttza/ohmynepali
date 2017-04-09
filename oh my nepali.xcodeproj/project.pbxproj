@@ -27,6 +27,7 @@
 		92D7F7E21D9E8ADA0007AAD0 /* NumbersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */; };
 		92D7F7E41D9E98330007AAD0 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7E31D9E98330007AAD0 /* foods.plist */; };
 		AC0FF7191E96E8940077AFD6 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FF7171E96E6C90077AFD6 /* Raleway-Thin.ttf */; };
+		AC9146981E981E0D0094AC08 /* Pink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AC9146971E981CFA0094AC08 /* Pink.m4a */; };
 		ACBFAF591E95F19B00CA717C /* Black.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF4E1E95F19B00CA717C /* Black.m4a */; };
 		ACBFAF5A1E95F19B00CA717C /* Blue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF4F1E95F19B00CA717C /* Blue.m4a */; };
 		ACBFAF5B1E95F19B00CA717C /* Brown.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF501E95F19B00CA717C /* Brown.m4a */; };
@@ -38,7 +39,6 @@
 		ACBFAF611E95F19B00CA717C /* Red.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF561E95F19B00CA717C /* Red.m4a */; };
 		ACBFAF621E95F19B00CA717C /* White.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF571E95F19B00CA717C /* White.m4a */; };
 		ACBFAF631E95F19B00CA717C /* Yellow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF581E95F19B00CA717C /* Yellow.m4a */; };
-		ACBFAF651E967BA500CA717C /* Pink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF641E967BA500CA717C /* Pink.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +91,7 @@
 		92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersViewController.m; sourceTree = "<group>"; };
 		92D7F7E31D9E98330007AAD0 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
 		AC0FF7171E96E6C90077AFD6 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Thin.ttf"; path = "../../../Downloads/Raleway/Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		AC9146971E981CFA0094AC08 /* Pink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pink.m4a; path = ../../../Downloads/ohmynepali_audio/Pink.m4a; sourceTree = "<group>"; };
 		ACBFAF4E1E95F19B00CA717C /* Black.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Black.m4a; path = ../../../Downloads/ohmynepali_audio/Black.m4a; sourceTree = "<group>"; };
 		ACBFAF4F1E95F19B00CA717C /* Blue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Blue.m4a; path = ../../../Downloads/ohmynepali_audio/Blue.m4a; sourceTree = "<group>"; };
 		ACBFAF501E95F19B00CA717C /* Brown.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Brown.m4a; path = ../../../Downloads/ohmynepali_audio/Brown.m4a; sourceTree = "<group>"; };
@@ -102,7 +103,6 @@
 		ACBFAF561E95F19B00CA717C /* Red.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Red.m4a; path = ../../../Downloads/ohmynepali_audio/Red.m4a; sourceTree = "<group>"; };
 		ACBFAF571E95F19B00CA717C /* White.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = White.m4a; path = ../../../Downloads/ohmynepali_audio/White.m4a; sourceTree = "<group>"; };
 		ACBFAF581E95F19B00CA717C /* Yellow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Yellow.m4a; path = ../../../Downloads/ohmynepali_audio/Yellow.m4a; sourceTree = "<group>"; };
-		ACBFAF641E967BA500CA717C /* Pink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pink.m4a; path = ../../../Downloads/Pink.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,8 +205,8 @@
 		92D7F7CA1D97AF2F0007AAD0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AC0FF7171E96E6C90077AFD6 /* Raleway-Thin.ttf */,
 				ACBFAF4D1E95EFD400CA717C /* audio */,
+				AC0FF7171E96E6C90077AFD6 /* Raleway-Thin.ttf */,
 				92D7F7CC1D97AF4B0007AAD0 /* Rajdhani-Bold.ttf */,
 				92D7F7CD1D97AF4B0007AAD0 /* Rajdhani-Light.ttf */,
 				92D7F7CE1D97AF4B0007AAD0 /* Rajdhani-Medium.ttf */,
@@ -228,7 +228,7 @@
 		ACBFAF4D1E95EFD400CA717C /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				ACBFAF641E967BA500CA717C /* Pink.m4a */,
+				AC9146971E981CFA0094AC08 /* Pink.m4a */,
 				ACBFAF4E1E95F19B00CA717C /* Black.m4a */,
 				ACBFAF4F1E95F19B00CA717C /* Blue.m4a */,
 				ACBFAF501E95F19B00CA717C /* Brown.m4a */,
@@ -351,27 +351,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACBFAF5C1E95F19B00CA717C /* Crimson.m4a in Resources */,
+				AC9146981E981E0D0094AC08 /* Pink.m4a in Resources */,
+				92C3CA051D952C0400858AFC /* Main.storyboard in Resources */,
+				92C3CA0A1D952C0400858AFC /* LaunchScreen.storyboard in Resources */,
+				92C3CA071D952C0400858AFC /* Assets.xcassets in Resources */,
 				92D7F7E41D9E98330007AAD0 /* foods.plist in Resources */,
+				92C3CA2E1D952CFB00858AFC /* colors.plist in Resources */,
 				AC0FF7191E96E8940077AFD6 /* Raleway-Thin.ttf in Resources */,
 				92D7F7DB1D97BB7A0007AAD0 /* Rajdhani-SemiBold.ttf in Resources */,
-				ACBFAF611E95F19B00CA717C /* Red.m4a in Resources */,
+				92D7F7D91D97BB720007AAD0 /* Rajdhani-Medium.ttf in Resources */,
 				92D7F7D21D97AF4B0007AAD0 /* Rajdhani-Bold.ttf in Resources */,
-				92C3CA2E1D952CFB00858AFC /* colors.plist in Resources */,
-				92C3CA0A1D952C0400858AFC /* LaunchScreen.storyboard in Resources */,
+				92D7F7D71D97BB660007AAD0 /* Rajdhani-Light.ttf in Resources */,
+				92D7F7DA1D97BB760007AAD0 /* Rajdhani-Regular.ttf in Resources */,
+				ACBFAF611E95F19B00CA717C /* Red.m4a in Resources */,
+				ACBFAF5C1E95F19B00CA717C /* Crimson.m4a in Resources */,
 				ACBFAF5B1E95F19B00CA717C /* Brown.m4a in Resources */,
 				ACBFAF5D1E95F19B00CA717C /* Green.m4a in Resources */,
-				92C3CA071D952C0400858AFC /* Assets.xcassets in Resources */,
 				ACBFAF631E95F19B00CA717C /* Yellow.m4a in Resources */,
 				ACBFAF621E95F19B00CA717C /* White.m4a in Resources */,
-				92D7F7D71D97BB660007AAD0 /* Rajdhani-Light.ttf in Resources */,
-				92C3CA051D952C0400858AFC /* Main.storyboard in Resources */,
 				ACBFAF5A1E95F19B00CA717C /* Blue.m4a in Resources */,
 				ACBFAF5F1E95F19B00CA717C /* Orange.m4a in Resources */,
-				ACBFAF651E967BA500CA717C /* Pink.m4a in Resources */,
-				92D7F7D91D97BB720007AAD0 /* Rajdhani-Medium.ttf in Resources */,
 				ACBFAF601E95F19B00CA717C /* Purple.m4a in Resources */,
-				92D7F7DA1D97BB760007AAD0 /* Rajdhani-Regular.ttf in Resources */,
 				ACBFAF591E95F19B00CA717C /* Black.m4a in Resources */,
 				ACBFAF5E1E95F19B00CA717C /* Grey.m4a in Resources */,
 			);

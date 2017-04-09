@@ -40,4 +40,15 @@
     nepaliLabel.font = [UIFont fontWithName:@"Rajdhani-Bold" size:60];
 }
 
+
+- (void)playAudio:(NSString *)pathToAudioFile pickerViewRow:(NSInteger )row matchingIndex:(NSInteger )arrayIndex {
+    SystemSoundID soundID;
+    
+    if (row == arrayIndex) {
+        NSString *soundPath = [[NSBundle mainBundle] pathForResource:pathToAudioFile ofType:@"m4a"];
+        AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
+        AudioServicesPlaySystemSound (soundID);
+    }
+}
+
 @end

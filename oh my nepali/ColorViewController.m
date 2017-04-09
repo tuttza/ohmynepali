@@ -52,6 +52,7 @@
     [_color displayWord:_color.nepaliColors[0] :_color.devanagariColors[0] :_nepaliLabel :_devanagariLabel :_blackText];
 
     
+    // Tap gesture for playing audio on color picker
     UITapGestureRecognizer *colorItemTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tappedToSelectRow:)];
     [colorItemTap setNumberOfTapsRequired:1];
     [colorItemTap setNumberOfTouchesRequired:1];
@@ -60,12 +61,10 @@
     [self.colorPicker addGestureRecognizer:colorItemTap];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 // Tap Gesture for color audio per picker row
 - (IBAction)tappedToSelectRow:(UITapGestureRecognizer *)tapRecognizer
@@ -81,70 +80,18 @@
         if (userTappedOnSelectedRow) {
             NSInteger selectedRow = [self.colorPicker selectedRowInComponent:0];
             
-            if (selectedRow == 0) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Green" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 1) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Red" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 2) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Blue" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 3) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Brown" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 4) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Yellow" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 5) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Purple" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 6) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Black" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 7) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"White" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 8) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Orange" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 9) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Pink" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 10) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Grey" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else if (selectedRow == 11) {
-                NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Crimson" ofType:@"m4a"];
-                SystemSoundID soundID;
-                AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath: soundPath], &soundID);
-                AudioServicesPlaySystemSound (soundID);
-            } else {
-                NSLog(@"NO MORE SELECTIONS");
-            }
-
+            [_color playAudio:@"Green" pickerViewRow:selectedRow matchingIndex:0];
+            [_color playAudio:@"Red" pickerViewRow:selectedRow matchingIndex:1];
+            [_color playAudio:@"Blue" pickerViewRow:selectedRow matchingIndex:2];
+            [_color playAudio:@"Brown" pickerViewRow:selectedRow matchingIndex:3];
+            [_color playAudio:@"Yellow" pickerViewRow:selectedRow matchingIndex:4];
+            [_color playAudio:@"Purple" pickerViewRow:selectedRow matchingIndex:5];
+            [_color playAudio:@"Black" pickerViewRow:selectedRow matchingIndex:6];
+            [_color playAudio:@"White" pickerViewRow:selectedRow matchingIndex:7];
+            [_color playAudio:@"Orange" pickerViewRow:selectedRow matchingIndex:8];
+            [_color playAudio:@"Pink" pickerViewRow:selectedRow matchingIndex:9];
+            [_color playAudio:@"Grey" pickerViewRow:selectedRow matchingIndex:10];
+            [_color playAudio:@"Crimson" pickerViewRow:selectedRow matchingIndex:11];
             
             [self pickerView:self.colorPicker didSelectRow:selectedRow inComponent:0];
         }
@@ -156,9 +103,7 @@
     return YES;
 }
 
-
 // UIPickerView Methods:
-
 - (int)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
     // Number Columns of data:
     return 1;

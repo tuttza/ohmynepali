@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface OMNColor : NSObject
 
@@ -18,6 +20,8 @@
 
 - (id)init;
 
-- (void)displayWord :(NSString *)nepaliWord :(NSString *)devanagariWord :(UILabel *)nepaliLabel :(UILabel *)devanagariLabel :(UIColor *)wordColor;
+- (void)displayWord:(NSString *)nepaliWord :(NSString *)devanagariWord :(UILabel *)nepaliLabel :(UILabel *)devanagariLabel :(UIColor *)wordColor;
+
+- (void)playAudio:(NSString *)pathToAudioFile pickerViewRow:(NSInteger)row matchingIndex:(NSInteger)arrayIndex;
 
 @end
