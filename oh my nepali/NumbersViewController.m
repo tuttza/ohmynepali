@@ -7,8 +7,10 @@
 //
 
 #import "NumbersViewController.h"
+#import "OMNNumbers.h"
 
 @interface NumbersViewController ()
+@property OMNNumbers *omnNumbers;
 
 @end
 
@@ -20,6 +22,11 @@
     
     // Round corners of view controller
     self.view.layer.cornerRadius = 6;
+    
+    _omnNumbers = [OMNNumbers new];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,4 +44,23 @@
 }
 */
 
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [_omnNumbers.englishOrdinalOneToTen count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *tableIdentity = @"identityOne";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableIdentity];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableIdentity];
+    }
+    
+    cell.textLabel.text = [_omnNumbers.devanagariOrdinalOneToTen objectAtIndex:indexPath.row];
+    
+    return cell;
+}
 @end

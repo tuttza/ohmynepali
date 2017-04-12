@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NumbersViewController : UIViewController
-
+@interface NumbersViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @end

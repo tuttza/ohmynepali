@@ -27,6 +27,8 @@
 		92D7F7E21D9E8ADA0007AAD0 /* NumbersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */; };
 		92D7F7E41D9E98330007AAD0 /* foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92D7F7E31D9E98330007AAD0 /* foods.plist */; };
 		AC0FF7191E96E8940077AFD6 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FF7171E96E6C90077AFD6 /* Raleway-Thin.ttf */; };
+		AC44196F1E9DD7170044AB1D /* OMNNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AC44196E1E9DD7170044AB1D /* OMNNumbers.m */; };
+		AC4419711E9DD7A20044AB1D /* numbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC4419701E9DD7A20044AB1D /* numbers.plist */; };
 		AC9146981E981E0D0094AC08 /* Pink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AC9146971E981CFA0094AC08 /* Pink.m4a */; };
 		ACBFAF591E95F19B00CA717C /* Black.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF4E1E95F19B00CA717C /* Black.m4a */; };
 		ACBFAF5A1E95F19B00CA717C /* Blue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ACBFAF4F1E95F19B00CA717C /* Blue.m4a */; };
@@ -91,6 +93,9 @@
 		92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersViewController.m; sourceTree = "<group>"; };
 		92D7F7E31D9E98330007AAD0 /* foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foods.plist; sourceTree = "<group>"; };
 		AC0FF7171E96E6C90077AFD6 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Thin.ttf"; path = "../../../Downloads/Raleway/Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		AC44196D1E9DD7170044AB1D /* OMNNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMNNumbers.h; sourceTree = "<group>"; };
+		AC44196E1E9DD7170044AB1D /* OMNNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMNNumbers.m; sourceTree = "<group>"; };
+		AC4419701E9DD7A20044AB1D /* numbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = numbers.plist; sourceTree = "<group>"; };
 		AC9146971E981CFA0094AC08 /* Pink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pink.m4a; path = ../../../Downloads/ohmynepali_audio/Pink.m4a; sourceTree = "<group>"; };
 		ACBFAF4E1E95F19B00CA717C /* Black.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Black.m4a; path = ../../../Downloads/ohmynepali_audio/Black.m4a; sourceTree = "<group>"; };
 		ACBFAF4F1E95F19B00CA717C /* Blue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Blue.m4a; path = ../../../Downloads/ohmynepali_audio/Blue.m4a; sourceTree = "<group>"; };
@@ -159,12 +164,14 @@
 				92C3C9FE1D952C0400858AFC /* AppDelegate.m */,
 				92C3CA001D952C0400858AFC /* ColorViewController.h */,
 				92C3CA011D952C0400858AFC /* ColorViewController.m */,
-				92D7F7DC1D9CAF7D0007AAD0 /* FoodViewController.h */,
-				92D7F7DD1D9CAF7D0007AAD0 /* FoodViewController.m */,
 				92D7F7E01D9E8ADA0007AAD0 /* NumbersViewController.h */,
 				92D7F7E11D9E8ADA0007AAD0 /* NumbersViewController.m */,
+				92D7F7DC1D9CAF7D0007AAD0 /* FoodViewController.h */,
+				92D7F7DD1D9CAF7D0007AAD0 /* FoodViewController.m */,
 				92C3CA311D952DCA00858AFC /* OMNColor.h */,
 				92C3CA321D952DCA00858AFC /* OMNColor.m */,
+				AC44196D1E9DD7170044AB1D /* OMNNumbers.h */,
+				AC44196E1E9DD7170044AB1D /* OMNNumbers.m */,
 				92B6DDD91DB5D13200CF058B /* OMNFood.h */,
 				92B6DDDA1DB5D13200CF058B /* OMNFood.m */,
 				92C3CA031D952C0400858AFC /* Main.storyboard */,
@@ -221,6 +228,7 @@
 			children = (
 				92C3CA2D1D952CFA00858AFC /* colors.plist */,
 				92D7F7E31D9E98330007AAD0 /* foods.plist */,
+				AC4419701E9DD7A20044AB1D /* numbers.plist */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -354,6 +362,7 @@
 				AC9146981E981E0D0094AC08 /* Pink.m4a in Resources */,
 				92C3CA051D952C0400858AFC /* Main.storyboard in Resources */,
 				92C3CA0A1D952C0400858AFC /* LaunchScreen.storyboard in Resources */,
+				AC4419711E9DD7A20044AB1D /* numbers.plist in Resources */,
 				92C3CA071D952C0400858AFC /* Assets.xcassets in Resources */,
 				92D7F7E41D9E98330007AAD0 /* foods.plist in Resources */,
 				92C3CA2E1D952CFB00858AFC /* colors.plist in Resources */,
@@ -403,6 +412,7 @@
 				92C3CA331D952DCA00858AFC /* OMNColor.m in Sources */,
 				92C3C9FF1D952C0400858AFC /* AppDelegate.m in Sources */,
 				92B6DDDB1DB5D13200CF058B /* OMNFood.m in Sources */,
+				AC44196F1E9DD7170044AB1D /* OMNNumbers.m in Sources */,
 				92C3C9FC1D952C0400858AFC /* main.m in Sources */,
 				92D7F7E21D9E8ADA0007AAD0 /* NumbersViewController.m in Sources */,
 			);
