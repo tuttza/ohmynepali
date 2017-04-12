@@ -138,82 +138,128 @@
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     // This method is triggered whenever the user makes a change to the picker selection.
     // The parameter named row and component represents what was selected.
-    switch (row) {
-        case 0:
-            // Green
+    
+    if (row == 0) {
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
             _colorBox.backgroundColor = [UIColor colorWithRed:0.35 green:1.00 blue:0.08 alpha:1.0];
             [_color displayWord:_color.nepaliColors[0] :_color.devanagariColors[0] :_nepaliLabel :_devanagariLabel :_blackText];
             
-            break;
-        case 1:
-            // Red
+        }];
+        
+    } else if (row == 1) {
+        // Display Red
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.82 green:0.00 blue:0.00 alpha:1.0];
             [_color displayWord:_color.nepaliColors[1] :_color.devanagariColors[1] :_nepaliLabel :_devanagariLabel :_blackText];
+            
+        }];
 
-            break;
-        case 2:
-            // Blue
+    } else if (row == 2) {
+        // Display Blue
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.01 green:0.33 blue:0.64 alpha:1.0];
             [_color displayWord:_color.nepaliColors[2] :_color.devanagariColors[2] :_nepaliLabel :_devanagariLabel :_whiteText];
             
-            break;
-        case 3:
-            // Brown
+        }];
+    } else if (row == 3) {
+        // Display Brown
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor brownColor];
             [_color displayWord:_color.nepaliColors[3] :_color.devanagariColors[3] :_nepaliLabel :_devanagariLabel :_blackText];
-
-            break;
-        case 4:
-            // Yellow
+            
+        }];
+    } else if (row == 4) {
+        // Display yellow
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.98 green:0.95 blue:0.24 alpha:1.0];
             [_color displayWord:_color.nepaliColors[4] :_color.devanagariColors[4] :_nepaliLabel :_devanagariLabel :_blackText];
-
-            break;
-        case 5:
-            // Purple
+            
+        }];
+    } else if (row == 5) {
+        // Display Purlple
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.58 green:0.22 blue:0.93 alpha:1.0];
             [_color displayWord:_color.nepaliColors[5] :_color.devanagariColors[5] :_nepaliLabel :_devanagariLabel :_whiteText];
-
-            break;
-        case 6:
-            // Black
+        }];
+    } else if (row == 6) {
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.13 green:0.14 blue:0.14 alpha:1.0];
             [_color displayWord:_color.nepaliColors[6] :_color.devanagariColors[6] :_nepaliLabel :_devanagariLabel :_whiteText];
+        }];
+    
+    } else if (row == 7) {
+        // Display White
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
             
-            break;
-        case 7:
-            // White
             _colorBox.backgroundColor = [UIColor colorWithRed:1.00 green:0.99 blue:1.00 alpha:1.0];
             [_color displayWord:_color.nepaliColors[7] :_color.devanagariColors[7] :_nepaliLabel :_devanagariLabel :_blackText];
-
-            break;
-        case 8:
-            // Orange
+        }];
+        
+    } else if (row == 8) {
+        // Display orange
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.96 green:0.32 blue:0.10 alpha:1.0];
             [_color displayWord:_color.nepaliColors[8] :_color.devanagariColors[8] :_nepaliLabel :_devanagariLabel :_whiteText];
-
-            break;
-        case 9:
-            // Pink
+        }];
+        
+    } else if (row == 9) {
+        // Display Pink
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.92 green:0.32 blue:0.44 alpha:1.0];
             [_color displayWord:_color.nepaliColors[9] :_color.devanagariColors[9] :_nepaliLabel :_devanagariLabel :_whiteText];
+        }];
+        
+    } else if (row == 10) {
+        // Display Grey
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
             
-            break;
-        case 10:
-            // Grey
             _colorBox.backgroundColor = [UIColor colorWithRed:0.60 green:0.63 blue:0.66 alpha:1.0];
             [_color displayWord:_color.nepaliColors[10] :_color.devanagariColors[10] :_nepaliLabel :_devanagariLabel :_blackText];
 
-            break;
-        case 11:
-            // Crimson
+        }];
+        
+    } else if (row == 11) {
+        // Display Crimson
+        [UIView animateWithDuration:1.2f animations:^{
+            [_devanagariLabel setAlpha:1.0f];
+            [_nepaliLabel setAlpha:1.0f];
+            
             _colorBox.backgroundColor = [UIColor colorWithRed:0.58 green:0.09 blue:0.13 alpha:1.0];
             [_color displayWord:_color.nepaliColors[11] :_color.devanagariColors[11] :_nepaliLabel :_devanagariLabel :_whiteText];
-            
-            break;
-            
-        default:
-            break;
+        }];
+        
+    } else {
+        NSLog(@"Nothing to display!");
     }
 }
 

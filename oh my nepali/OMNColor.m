@@ -38,6 +38,7 @@
     nepaliLabel.text = nepaliWord;
     nepaliLabel.textColor = wordColor;
     nepaliLabel.font = [UIFont fontWithName:@"Rajdhani-Bold" size:60];
+    
 }
 
 
